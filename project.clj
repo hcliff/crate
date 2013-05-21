@@ -1,2 +1,2 @@
-(defproject crate "0.2.1"
-  :description "A ClojureScript implementation of Hiccup")
+(defproject dommy-crate "0.2.1"
+  :description "Crates elements for dommy")
