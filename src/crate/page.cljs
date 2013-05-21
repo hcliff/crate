@@ -17,4 +17,4 @@
   "Include a list of external stylesheet files."
   [& styles]
   (for [style styles]
-    [:link {:type "text/less", :href (to-uri style), :rel "stylesheet"}]))
+    [:link {:type "text/css", :href (to-uri style), :rel "stylesheet/less"}]))
